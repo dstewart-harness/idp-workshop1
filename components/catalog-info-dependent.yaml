@@ -24,8 +24,8 @@ spec:
   owner: change-value
   lifecycle: experimental
 #  system: Demo
-#  dependsOn:
-#    - component:default/davids-example-service
+  dependsOn:
+    - component:default/davids-example-service
 #  consumesApis:
 #    - user-api
 #  providesApis:
